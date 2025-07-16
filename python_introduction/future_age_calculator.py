@@ -1,7 +1,10 @@
-current_age = int(input("How old are you? "))
-current_year = 2023
+how_old_are_you = input("How old are you? ") 
+current_age = int (how_old_are_you) 
+
+current_year = 2023 
 future_year = 2050
 
-future_age =(future_year - current_year) + current_age
+difference_in_age = future_year - current_year
+age_in_2025 = difference_in_years + current_age
 
-print(f"In 2050, you will be {future_age} years old.")
+print("In 2050, you will be", age_in_2025, "years old.")
