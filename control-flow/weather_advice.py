@@ -4,10 +4,10 @@ weather = input("What's the weather like today? (sunny/rainy/cold): ").strip().l
 
 # Provide clothing recommendations based on input
 if weather == "sunny":
-    print("Wear a t-shirt and sun glasses.")
+    print ("Wear a t-shirt and sun glasses.")
 elif weather == "rainy":
-    print("Don't forget your umberella and a raincoat.")
+    print ("Don't forget your umberella and a raincoat.")
 elif weather == "cold":
-    print("Make sure to wear a warm coat and a scarf.")
+    print ("Make sure to wear a warm coat and a scarf.")
 else:
-    print("Sorry, I don't have recommendations for this weather.")
+    print ("Sorry, I don't have recommendations for this weather.")
