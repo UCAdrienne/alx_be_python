@@ -7,7 +7,13 @@ col = 0
 
 # While loop to iterate through each row
 while row < size:
+
+    # Print starts in this row
     for col in range(size):
         print("*", end="")
+
+    # Go to the next line after this row
     print()
+
+    # move to next row and execute
     row += 1
