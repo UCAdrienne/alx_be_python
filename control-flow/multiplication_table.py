@@ -8,4 +8,4 @@ end = 11
 # Use the range function with those values
 for i in range(1, 11):
     result = number * i
-    print(number, "*", i, "=", result)
+    print(f"{number} * {i} = {result}")
